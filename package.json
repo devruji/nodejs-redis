@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-redis",
+  "version": "1.0.0",
+  "description": "- https://try.redis.io/\r - install vscode, nodejs, docker\r - install redis on Docker\r - docker pull redis\r - docker run --name some-redis -d -p 6379:6379 redis\r - docker ps\r - ssh to redis container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  }
+}

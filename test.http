@@ -1,0 +1,8 @@
+### without redis
+GET http://localhost:3000/noredis?date=04/25/2021 HTTP/1.1
+
+### with redis caching
+GET http://localhost:3000/redis?date=04/25/2021 HTTP/1.1
+
+### Remove caching data
+GET http://localhost:3000/redis/clear HTTP/1.1
