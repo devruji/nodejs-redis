@@ -8,5 +8,3 @@
 - redis-cli
 - npm init -y
 - npm i express axios redis
-- start server "node app.js"
-- start send request from test.http file
